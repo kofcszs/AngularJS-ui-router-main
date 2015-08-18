@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="App/Libs/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Layout.css">
+    <script src="App/Libs/jquery-2.1.4.min.js"></script>
+    <script src="App/Libs/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    <script src="App/Libs/angular.min.js"></script>
+    <script src="App/Libs/angular-ui-router.min.js"></script>
+    <script src="App/app.js"></script>
+    <script src="App/Controllers/navBar.js"></script>
+    <script src="App/Directives/topNavBar.js"></script>
+</head>
+<body>
+
+<div class="container-fluid headnav-container">
+    <div ui-view="nav">
+
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="container" style="height: 200px">
+        <div ui-view="content">
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
