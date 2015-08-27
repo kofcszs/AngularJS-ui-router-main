@@ -19,4 +19,8 @@ app.config(function($stateProvider,$urlRouterProvider){
 
             }
         })
-})
+});
+
+
+
+//some sort of common
